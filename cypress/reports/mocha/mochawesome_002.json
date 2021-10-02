@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 9,
     "failures": -7,
-    "start": "2021-10-02T12:23:01.647Z",
-    "end": "2021-10-02T12:23:02.141Z",
-    "duration": 494,
+    "start": "2021-10-02T21:37:57.215Z",
+    "end": "2021-10-02T21:37:57.401Z",
+    "duration": 186,
     "testsRegistered": 9,
     "passPercent": null,
     "pendingPercent": 100,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "aabb29f8-49e6-4a32-9610-52b0f8f86413",
+      "uuid": "4537f793-bb2a-4250-a23c-73db6f45ab6f",
       "title": "",
       "fullFile": "cypress/integration/assertions.spec.js",
       "file": "cypress/integration/assertions.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9928e20d-f4a5-4772-8df9-31775b4f679b",
+          "uuid": "7ea96352-da5e-4198-ba0f-111d63018e73",
           "title": "Assertions",
           "fullFile": "",
           "file": "",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "111ace40-a2e2-4953-83f4-6e7e8e864352",
+              "uuid": "2d180c50-d2f4-4f5c-bcc3-cbb151f73b62",
               "title": "Implicit Assertions",
               "fullFile": "",
               "file": "",
@@ -56,8 +56,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "5fe2589e-b2fa-418f-a35e-ff0bba6d6d02",
-                  "parentUUID": "111ace40-a2e2-4953-83f4-6e7e8e864352",
+                  "uuid": "6ce67528-c838-4c6e-9558-7bf35ccf3b77",
+                  "parentUUID": "2d180c50-d2f4-4f5c-bcc3-cbb151f73b62",
                   "isHook": false,
                   "skipped": false
                 },
@@ -74,8 +74,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "eac4ee7f-eea9-4310-a23f-2ecca9e5ddf0",
-                  "parentUUID": "111ace40-a2e2-4953-83f4-6e7e8e864352",
+                  "uuid": "c2356b7c-1bed-4629-b3c3-913c61e1e358",
+                  "parentUUID": "2d180c50-d2f4-4f5c-bcc3-cbb151f73b62",
                   "isHook": false,
                   "skipped": false
                 }
@@ -84,8 +84,8 @@
               "passes": [],
               "failures": [],
               "pending": [
-                "5fe2589e-b2fa-418f-a35e-ff0bba6d6d02",
-                "eac4ee7f-eea9-4310-a23f-2ecca9e5ddf0"
+                "6ce67528-c838-4c6e-9558-7bf35ccf3b77",
+                "c2356b7c-1bed-4629-b3c3-913c61e1e358"
               ],
               "skipped": [],
               "duration": 0,
@@ -94,7 +94,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "cd99a5d0-fa00-4f62-b901-ae279c41a3c0",
+              "uuid": "1208a245-bf98-4078-9021-f8b965a44b03",
               "title": "Explicit Assertions",
               "fullFile": "",
               "file": "",
@@ -114,8 +114,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "fac7cbab-d84a-4ff9-bf6f-8737b80bc700",
-                  "parentUUID": "cd99a5d0-fa00-4f62-b901-ae279c41a3c0",
+                  "uuid": "24038ead-72d2-493f-a94e-78684b784ddf",
+                  "parentUUID": "1208a245-bf98-4078-9021-f8b965a44b03",
                   "isHook": false,
                   "skipped": false
                 },
@@ -132,8 +132,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "469a57e1-7d7c-4d90-8969-16c81efdbb16",
-                  "parentUUID": "cd99a5d0-fa00-4f62-b901-ae279c41a3c0",
+                  "uuid": "f41a7fdc-98c3-46fa-8e5e-36e038e63d5b",
+                  "parentUUID": "1208a245-bf98-4078-9021-f8b965a44b03",
                   "isHook": false,
                   "skipped": false
                 },
@@ -150,8 +150,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "cb72f26f-bb73-445c-abf7-44b34d6e3321",
-                  "parentUUID": "cd99a5d0-fa00-4f62-b901-ae279c41a3c0",
+                  "uuid": "820ffbe3-3450-4565-9d66-36a1f1e77b5d",
+                  "parentUUID": "1208a245-bf98-4078-9021-f8b965a44b03",
                   "isHook": false,
                   "skipped": false
                 },
@@ -168,8 +168,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "f00a780b-0157-42d2-8adf-1868798b9dff",
-                  "parentUUID": "cd99a5d0-fa00-4f62-b901-ae279c41a3c0",
+                  "uuid": "7ec9a7d0-c89d-416a-81fa-00d0bfd6a19a",
+                  "parentUUID": "1208a245-bf98-4078-9021-f8b965a44b03",
                   "isHook": false,
                   "skipped": false
                 },
@@ -186,8 +186,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "1e1a824a-9263-4a0f-85b8-21464169247f",
-                  "parentUUID": "cd99a5d0-fa00-4f62-b901-ae279c41a3c0",
+                  "uuid": "fb4aa063-3d91-4a32-b75b-61c17dbad32e",
+                  "parentUUID": "1208a245-bf98-4078-9021-f8b965a44b03",
                   "isHook": false,
                   "skipped": false
                 },
@@ -204,8 +204,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "081fad33-a1d3-4068-b0dc-97571fd7514c",
-                  "parentUUID": "cd99a5d0-fa00-4f62-b901-ae279c41a3c0",
+                  "uuid": "c1f07341-ffc0-443c-baed-47c84171e457",
+                  "parentUUID": "1208a245-bf98-4078-9021-f8b965a44b03",
                   "isHook": false,
                   "skipped": false
                 },
@@ -222,8 +222,8 @@
                   "context": null,
                   "code": "",
                   "err": {},
-                  "uuid": "c695a8eb-23e0-4932-ae9b-3005e36e936c",
-                  "parentUUID": "cd99a5d0-fa00-4f62-b901-ae279c41a3c0",
+                  "uuid": "dcd7d46b-3742-4050-a1e7-bd9effbdcde3",
+                  "parentUUID": "1208a245-bf98-4078-9021-f8b965a44b03",
                   "isHook": false,
                   "skipped": false
                 }
@@ -232,13 +232,13 @@
               "passes": [],
               "failures": [],
               "pending": [
-                "fac7cbab-d84a-4ff9-bf6f-8737b80bc700",
-                "469a57e1-7d7c-4d90-8969-16c81efdbb16",
-                "cb72f26f-bb73-445c-abf7-44b34d6e3321",
-                "f00a780b-0157-42d2-8adf-1868798b9dff",
-                "1e1a824a-9263-4a0f-85b8-21464169247f",
-                "081fad33-a1d3-4068-b0dc-97571fd7514c",
-                "c695a8eb-23e0-4932-ae9b-3005e36e936c"
+                "24038ead-72d2-493f-a94e-78684b784ddf",
+                "f41a7fdc-98c3-46fa-8e5e-36e038e63d5b",
+                "820ffbe3-3450-4565-9d66-36a1f1e77b5d",
+                "7ec9a7d0-c89d-416a-81fa-00d0bfd6a19a",
+                "fb4aa063-3d91-4a32-b75b-61c17dbad32e",
+                "c1f07341-ffc0-443c-baed-47c84171e457",
+                "dcd7d46b-3742-4050-a1e7-bd9effbdcde3"
               ],
               "skipped": [],
               "duration": 0,

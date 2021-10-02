@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-02T12:22:32.294Z",
-    "end": "2021-10-02T12:22:45.604Z",
-    "duration": 13310,
+    "start": "2021-10-02T21:37:27.076Z",
+    "end": "2021-10-02T21:37:39.933Z",
+    "duration": 12857,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f78e19fa-64a5-470c-9602-f4d260f3527c",
+      "uuid": "8e49b3cb-c8e7-4e47-9ddb-e0b1aa1ac4bc",
       "title": "",
       "fullFile": "cypress/integration/actions.spec.js",
       "file": "cypress/integration/actions.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "f07edfd2-ca88-4091-9c98-be3fac22f220",
+          "uuid": "05b8f77b-b379-4dce-9d8e-a0d76d8fae8e",
           "title": "Actions",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Go to homePage",
               "fullTitle": "Actions Go to homePage",
               "timedOut": null,
-              "duration": 5071,
+              "duration": 7090,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.get('.text-center').should('have.text', 'No items yet! Add one above!');",
               "err": {},
-              "uuid": "59f4659b-8970-4d19-9564-a0a4dffe8514",
-              "parentUUID": "f07edfd2-ca88-4091-9c98-be3fac22f220",
+              "uuid": "2bfcaee8-e35b-424c-9ae6-1d7ceac04b43",
+              "parentUUID": "05b8f77b-b379-4dce-9d8e-a0d76d8fae8e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "59f4659b-8970-4d19-9564-a0a4dffe8514"
+            "2bfcaee8-e35b-424c-9ae6-1d7ceac04b43"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5071,
+          "duration": 7090,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

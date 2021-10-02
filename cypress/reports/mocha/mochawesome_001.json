@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 2,
     "failures": -1,
-    "start": "2021-10-02T12:22:54.208Z",
-    "end": "2021-10-02T12:22:54.667Z",
-    "duration": 459,
+    "start": "2021-10-02T21:37:51.434Z",
+    "end": "2021-10-02T21:37:51.502Z",
+    "duration": 68,
     "testsRegistered": 2,
     "passPercent": null,
     "pendingPercent": 100,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "90bf3b47-0ca9-497b-8351-d2869ccd3855",
+      "uuid": "ebbc9f07-197f-46be-afb6-affcf7204bcb",
       "title": "",
       "fullFile": "cypress/integration/aliasing.spec.js",
       "file": "cypress/integration/aliasing.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c65f4188-2a29-4975-83fa-1efabde4f8f5",
+          "uuid": "b454477a-b5c9-445a-b7c2-0b7d2eae9756",
           "title": "Aliasing",
           "fullFile": "",
           "file": "",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "",
               "err": {},
-              "uuid": "37d6f89a-b99b-4163-b869-0e216220e05f",
-              "parentUUID": "c65f4188-2a29-4975-83fa-1efabde4f8f5",
+              "uuid": "0e13819c-db3d-40f5-8b86-6c5f2e87ae6b",
+              "parentUUID": "b454477a-b5c9-445a-b7c2-0b7d2eae9756",
               "isHook": false,
               "skipped": false
             },
@@ -65,8 +65,8 @@
               "context": null,
               "code": "",
               "err": {},
-              "uuid": "cf3aa2e5-0146-464b-a8cf-4ae6a081bd3f",
-              "parentUUID": "c65f4188-2a29-4975-83fa-1efabde4f8f5",
+              "uuid": "9681d69d-fe93-4a55-aeae-c67e1c7dc516",
+              "parentUUID": "b454477a-b5c9-445a-b7c2-0b7d2eae9756",
               "isHook": false,
               "skipped": false
             }
@@ -75,8 +75,8 @@
           "passes": [],
           "failures": [],
           "pending": [
-            "37d6f89a-b99b-4163-b869-0e216220e05f",
-            "cf3aa2e5-0146-464b-a8cf-4ae6a081bd3f"
+            "0e13819c-db3d-40f5-8b86-6c5f2e87ae6b",
+            "9681d69d-fe93-4a55-aeae-c67e1c7dc516"
           ],
           "skipped": [],
           "duration": 0,
