@@ -6,7 +6,7 @@
   "scripts": {
     "prettify": "prettier -l --write \"**/*.js\"",
     "dev": "nodemon src/index.js",
-    "clean:reports": "if exist cypress\\reports rmdir /q /s cypress\\reports && mkdir cypress\\reports && mkdir cypress\\reports\\mochareports",
+    "clean:reports": "mkdir -p cypress/reports && rm -R -f cypress/reports/* && mkdir cypress/reports/mochareports",
     "pretest": "npm run clean:reports",
     "scripts": "cypress run",
     "chrome:scripts": "cypress run --browser chrome --headless",
