@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 2,
     "failures": -1,
-    "start": "2021-10-02T21:37:51.434Z",
-    "end": "2021-10-02T21:37:51.502Z",
-    "duration": 68,
+    "start": "2021-10-02T22:12:25.890Z",
+    "end": "2021-10-02T22:12:25.976Z",
+    "duration": 86,
     "testsRegistered": 2,
     "passPercent": null,
     "pendingPercent": 100,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ebbc9f07-197f-46be-afb6-affcf7204bcb",
+      "uuid": "22839df7-bd3a-468a-bbbf-410e69b6a51a",
       "title": "",
       "fullFile": "cypress/integration/aliasing.spec.js",
       "file": "cypress/integration/aliasing.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b454477a-b5c9-445a-b7c2-0b7d2eae9756",
+          "uuid": "3d60a77f-b342-4693-8d00-ce9d61b087c9",
           "title": "Aliasing",
           "fullFile": "",
           "file": "",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "",
               "err": {},
-              "uuid": "0e13819c-db3d-40f5-8b86-6c5f2e87ae6b",
-              "parentUUID": "b454477a-b5c9-445a-b7c2-0b7d2eae9756",
+              "uuid": "d8105d1f-61f5-420c-9343-37505f652b18",
+              "parentUUID": "3d60a77f-b342-4693-8d00-ce9d61b087c9",
               "isHook": false,
               "skipped": false
             },
@@ -65,8 +65,8 @@
               "context": null,
               "code": "",
               "err": {},
-              "uuid": "9681d69d-fe93-4a55-aeae-c67e1c7dc516",
-              "parentUUID": "b454477a-b5c9-445a-b7c2-0b7d2eae9756",
+              "uuid": "0418ac23-6429-409c-8924-1397736734be",
+              "parentUUID": "3d60a77f-b342-4693-8d00-ce9d61b087c9",
               "isHook": false,
               "skipped": false
             }
@@ -75,8 +75,8 @@
           "passes": [],
           "failures": [],
           "pending": [
-            "0e13819c-db3d-40f5-8b86-6c5f2e87ae6b",
-            "9681d69d-fe93-4a55-aeae-c67e1c7dc516"
+            "d8105d1f-61f5-420c-9343-37505f652b18",
+            "0418ac23-6429-409c-8924-1397736734be"
           ],
           "skipped": [],
           "duration": 0,
