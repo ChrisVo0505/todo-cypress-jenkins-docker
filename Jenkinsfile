@@ -24,6 +24,11 @@ pipeline {
 					sh 'npm install --legacy-peer-deps xvfb'
 				}
 		}
+		stage('Install More Dependencies'){
+				steps{
+					sh 'apk add libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb'
+				}
+		}
 		stage('Run Tests'){
 				steps{
 					sh 'npm test'
