@@ -18,12 +18,12 @@ pipeline {
 		}
 		stage('Install Dependencies'){
 				steps{
-					bat 'npm install'
+					sh 'npm install'
 				}
 		}
 		stage('Run Tests'){
 				steps{
-					bat 'npm test'
+					sh 'npm test'
 				}
 		}
 		stage('Publish HTML Report'){
