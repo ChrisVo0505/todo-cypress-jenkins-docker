@@ -8,12 +8,12 @@ pipeline {
 		}
 		stage('Build App'){
 				steps{
-					bat 'docker build -t chrisvo-pipeline .'
+					sh 'docker build -t chrisvo-pipeline .'
 				}
 		}
 		stage('Start App'){
 				steps{
-					bat 'docker run -dp 3000:3000 chrisvo-pipeline'
+					sh 'docker run -dp 3000:3000 chrisvo-pipeline'
 				}
 		}
 		stage('Install Dependencies'){
