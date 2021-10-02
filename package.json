@@ -21,6 +21,12 @@
   "keywords": [],
   "author": "Chris Vo",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "sqlite3": "^5.0.2",
+    "uuid": "^3.3.3",
+    "wait-port": "^0.2.2",
     "cypress-multi-reporters": "^1.4.0",
     "mocha": "^8.2.1",
     "mochawesome": "^6.2.1",
