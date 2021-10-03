@@ -24,11 +24,6 @@ pipeline {
 					bat 'npm install --legacy-peer-deps xvfb'
 				}
 		}
-		stage('Install More Dependencies'){
-				steps{
-					bat 'apt-get install -y libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb'
-				}
-		}
 		stage('Verify Cypress'){
 				steps{
 					bat 'npx cypress verify'
