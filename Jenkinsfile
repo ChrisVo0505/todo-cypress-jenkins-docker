@@ -31,6 +31,11 @@ pipeline {
 		}
 		stage('Run Tests'){
 				steps{
+					sh 'npx cypress verify'
+				}
+		}
+		stage('Run Tests'){
+				steps{
 					sh 'npm test'
 				}
 		}
