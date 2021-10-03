@@ -24,11 +24,6 @@ pipeline {
 					bat 'npm install --legacy-peer-deps xvfb'
 				}
 		}
-		stage('Verify Cypress'){
-				steps{
-					bat 'npx cypress verify'
-				}
-		}
 		stage('Run Tests'){
 				steps{
 					bat 'npm test'
