@@ -2,7 +2,7 @@
 
 context('Actions', () => {
   beforeEach(() => {
-    cy.visit(`${Cypress("baseUrl")}`)
+    cy.visit(Cypress.config().baseUrl);
   })
 
   // https://on.cypress.io/interacting-with-elements
